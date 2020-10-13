@@ -8,10 +8,22 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans" />
 
         <!-- CSS -->
         <link href="{{asset('css/css.css')}}" rel="stylesheet" type="text/css">
         <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
+
+
+        <style>
+            body{
+                background-image: url("{{asset('storage/resources/background.png')}}") !important;
+                background-repeat: no-repeat;
+                background-position: center bottom;
+                background-color: #fff;
+                background-attachment: fixed;
+            }
+        </style>
         
     </head>
     <body>

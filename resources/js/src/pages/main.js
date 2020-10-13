@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom'
 
 import { Home } from './index'
 import { Navbar } from '../components'
+import { RUN_FOR_EARTH_API_URL } from '../config';
 
 export default class Main extends Component{
     constructor(props){
@@ -11,7 +12,7 @@ export default class Main extends Component{
 
     render(){
         return(
-            <div className="row no-gutters bg-white flex-row flex-nowrap">
+            <div className="row no-gutters flex-row flex-nowrap">
                 <div className="col">
                     <div className="main-container">
                         <Navbar/>
